@@ -43,7 +43,7 @@ systemctl list-timers | grep auto-update
 - To adjust the schedule, edit `/etc/systemd/system/auto-update.timer` and reload:
 
 ```bash
-sudo system daemon-reload
+sudo systemctl daemon-reload
 sudo systemctl restart auto-update.timer
 ```
 

@@ -2,7 +2,7 @@
 Description=Run system update daily
 
 [Timer]
-OnBootSec=1min
+OnBootSec=5min
 OnUnitActiveSec=1d
 Persistent=true
 
