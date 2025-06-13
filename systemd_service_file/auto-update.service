@@ -1,0 +1,9 @@
+[Unit]
+Description=Auto System Update
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/update
+SuccessExitStatus=0
+StandardOutput=append:/var/log/auto-update.log
+StandardError=append:/var/log/auto-update.log
